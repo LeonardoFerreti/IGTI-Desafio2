@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Pesquisa de usuários</title>
+  </head>
+  <body>
+    <h1>Pesquisa de usuários</h1>
+
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s10">
+            <input id="txtBusca" type="text" />
+            <label for="txtBusca">Busca</label>
+          </div>
+          <div class="input-field col s2">
+            <a id="btnBusca" class="btn disabled">Buscar</a>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col s6 m6">
+              <div class="result">
+                <h4 id="labelResultUsuarios">Nenhum usuário filtrado</h4>
+                <div id="tabUsuarios"></div>
+              </div>
+            </div>
+            <div class="col s6 m6">
+              <div class="result direita">
+                <h4 id="labelResultEstatisticas">Nada a ser exibido</h4>
+                <div id="tabEstatisticas"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

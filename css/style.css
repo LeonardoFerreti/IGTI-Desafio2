@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.person {
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+.result {
+  margin-left: 10px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.result.direita {
+  margin-right: 45px;
+}
+
+.resultStatistic {
+  font-weight: bold;
+}
