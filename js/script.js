@@ -20,7 +20,7 @@ window.addEventListener('load', () => {
   fetchPersons();
 });
 
-//habiita/desabilita o botão de procurar de acordo com a tecla pressionada no input
+//habilita/desabilita o botão de procurar de acordo com a tecla pressionada no input
 function doEnableDisableSearch() {
   inputBusca.addEventListener('keydown', function (event) {
     if (event.key === 'Enter') {
@@ -42,7 +42,7 @@ function doEnableDisableSearch() {
   });
 }
 
-//ação de clicar no botao procurar: consulta no json carregado as pessoas
+//ação de clicar no botao procurar: consulta no json que foi carregado com as informações das pessoas
 function doSearchPersons() {
   btnBusca.addEventListener('click', function () {
     searchFilteredPersons();
